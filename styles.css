@@ -1,0 +1,399 @@
+/* shared css */
+body {
+    /* max-width: 1170px; */
+    /* max-width: 80%; */
+    /* margin: 0 auto; */
+    font-family: Mulish;
+}
+
+.primary-color {
+    color: #FF5400;
+
+
+}
+
+.btn-color {
+    background-color: #FF5400;
+}
+
+/* Header section  */
+.navigation-section {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 78.5%;
+    margin: 0 auto;
+
+}
+
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    /* font-family: Mulish; */
+    font-size: 18px;
+    font-weight: 400;
+    visibility: visible;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 44px;
+}
+
+.Tourbuzz {
+    font-weight: 800;
+    text-align: center;
+    font-size: 36px;
+    height: 45px;
+
+}
+
+.span1 {
+    /* color: #FF5400; */
+    font-family: Mulish;
+    font-weight: 800;
+
+}
+
+.Group400 {
+    width: 50px;
+    height: 40px;
+    padding-right: 20px;
+}
+
+.menu-bar {
+    width: 28px;
+    height: 28px;
+    font-size: 24px;
+    padding-top: 10px;
+    display: none;
+}
+
+/* Explore your travel section  */
+
+.your-travel {
+    max-width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    /* background-repeat: no-repeat; */
+    text-align: center;
+}
+
+.explore {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.explore-des {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+.btn-section {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    gap: 24px;
+}
+
+.where-go {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.when {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+
+.select-type {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.Find-now {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+select {
+    border: none;
+    background: none;
+}
+
+.when-section {
+    display: flex;
+    margin: 0;
+}
+
+/* our popular tour */
+.section2 {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.popular-tour-name {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tour-des {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* .Rectangle4 {
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+} */
+.Rectangle4-img {
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+.read-more {
+    width: 174px;
+    height: 52px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+}
+/* .img1{
+    grid-area: header1;
+}
+.img2{
+    grid-area: header2;
+}
+.img3{
+    grid-area: Menubar;
+}
+.img4{
+    grid-area: main;
+}
+.img5{
+    grid-area:  Aside;
+}
+.img6{
+    grid-area: footer1;
+}
+.img7{
+    grid-area: footer2;
+}
+.trip-pictures{
+    display: grid;
+    grid-template-areas: 
+    'header1 header1 header1 header1 header1 header1 header2 header2 header2 header2 header2 header2 '
+    'Menubar  Menubar Menubar main main main main main main Aside Aside Aside Aside'
+    'footer1 footer1 footer1 footer1 footer1 footer1 footer2 footer2 footer2 footer2 footer2 footer2'
+    ;
+} */
+.Maldives{
+    /* background-image: url(./Images/Rectangle\ 5.png); */
+    width: 573px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+}
+.Indonesia{
+    width: 573px;
+height: 300px;
+flex-shrink: 0;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+}
+.Srilanka{
+
+}
+.North-america{
+
+}
+.Kashmir{
+
+}
+.Bangladesh{
+    
+}
+.Bandarban{
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .navbar {
+        display: none;
+    }
+
+
+    .menu-bar {
+        visibility: visible;
+        padding-top: 0;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .navigation-section {
+        width: 335px;
+
+        /* flex-wrap: wrap; */
+        align-items: center;
+
+        margin: 0 auto;
+
+    }
+
+    .Tourbuzz {
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-weight: 800;
+        padding-top: 12px;
+
+    }
+
+    .Group400 {
+        width: 25px;
+        height: 35px;
+        padding-right: 10px;
+    }
+
+    .name {
+        align-items: center;
+    }
+
+    /* Explore your travel section  */
+    .btn-section {
+        display: flex;
+        max-width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin: 0 auto;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+
+    }
+
+    .your-travel {
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        padding: 0 24px 24px 30px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    }
+
+    .explore {
+        padding-top: 10px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-weight: 800;
+
+    }
+
+    .explore-des {
+        color: #FFF;
+        text-align: center;
+
+    }
+
+    .where-go {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+    }
+
+    .when {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+    }
+
+    .select-type {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+    }
+
+    .Find-now {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .popular-tour-name {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .Rectangle4-img {
+        width: 335px;
+        height: 342px;
+        flex-shrink: 0;
+    }
+
+}
