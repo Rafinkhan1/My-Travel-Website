@@ -1,10 +1,11 @@
 /* shared css */
-body {
+main {
     max-width: 1170px;
     /* max-width: 80%; */
     margin: 0 auto;
     font-family: Mulish;
 }
+
 
 .primary-color {
     color: #FF5400;
@@ -421,11 +422,12 @@ border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 margin-top: 24px ;
-margin-left: 450px;
+margin-left: 280px;
 /* margin: 24px auto; */
 /* margin:24px auto; */
 margin-right: 20px ;
 padding-left: 20px;
+margin-bottom: 24px;
 }
 .home-service-price{
     display: grid;
@@ -520,16 +522,6 @@ border: 1px solid #FF5400;
 padding-left: 20px;
 margin-right: 24px;
 }
- /* .section5{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    max-width: 1170px;
-   max-width: 80%;
-     justify-content: space-between;
-    align-items: center;
-   margin-top: 100px;
-   
-}   */
 .section5{
     display: flex;
     justify-content: space-between;
@@ -544,7 +536,50 @@ border-radius: 16px;
 background:  lightgray 50% / cover no-repeat;
 }
 
-
+.footer-section{
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    border-radius: 16px;
+}
+.Reserved{
+    color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+text-align: center;
+}
+.tourbazz-img{
+    max-width: 40px;
+height: 46.673px;
+flex-shrink: 0;
+margin-top: 100px;
+}
+.Tourbuzz1{
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer-des{
+    max-width: 769px;
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding-top: 40px;
+}
+.footer-icons{
+    margin-left:100px;
+}
+.horizontal{
+    max-width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+}
 
 
 
@@ -846,6 +881,51 @@ left: 100px;
 }
 .save-up-pic-section{
     max-width: 90%;
+}
+
+.footer-section{
+    width: 500px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+.tourbazz-travel-footer{
+
+}
+.Tourbuzz1{
+font-family: Mulish;
+font-size: 21.543px;
+font-weight: 800;
+margin-left: 0;
+}
+.tourbazz-img{
+    width: 28.724px;
+height: 33.516px;
+flex-shrink: 0;
+}
+.footer-des{
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+width: 320px;
+}
+.footer-icons{
+
+    width: 174.322px;
+height: 24px;
+flex-shrink: 0;
+}
+.Reserved{
+    color: #131318;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
 }
 
 }
